@@ -1,0 +1,27 @@
+Source: node-selenium-webdriver
+Section: javascript
+Priority: optional
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.7.0
+Homepage: https://github.com/SeleniumHQ/selenium/tree/trunk/javascript/selenium-webdriver
+Vcs-Git: https://github.com/SeleniumHQ/selenium.git
+Vcs-Browser: https://github.com/SeleniumHQ/selenium
+Rules-Requires-Root: no
+
+Package: node-selenium-webdriver
+Architecture: all
+Depends: ${misc:Depends},
+ nodejs:any,
+ node-jszip (>= 3.10.1),
+ node-tmp (>= 0.2.5),
+ node-ws (>= 8.17.0)
+Description: Official WebDriver JavaScript bindings from the Selenium project
+ Selenium is a browser automation library. Most often used for testing
+ web applications, Selenium may be used for any task that requires automating
+ interaction with the browser.
+ .
+ This package provides the official JavaScript bindings for the WebDriver API,
+ allowing Node.js applications to control web browsers programmatically.
+ .
+ Node.js is an event-based server-side JavaScript engine.

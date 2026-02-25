@@ -1,0 +1,5 @@
+node-selenium-webdriver (4.41.0-1) unstable; urgency=medium
+
+  * Initial release.
+
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Tue, 25 Feb 2026 22:15:00 +0100
